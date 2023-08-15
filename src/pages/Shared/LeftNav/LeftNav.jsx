@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import Sports from "../Sports/Sports";
 
 const LeftNav = () => {
     const [categories, setCategories] = useState([]);
@@ -24,6 +25,9 @@ const LeftNav = () => {
               </p> )
             }
             </div>
+            <div className="">            
+            <Sports></Sports></div>
+
         </div>
     );
 };
